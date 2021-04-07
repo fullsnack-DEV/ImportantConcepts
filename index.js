@@ -106,3 +106,58 @@
 // };
 
 // console.log(res());
+////////////////////** OOPS *///////////////////////////
+
+//Object Oriented Programming
+//It is a Style of a Programming or WE can say its a Programming
+//paradigm that is styled around the Objects
+//In the OOP We combined the group of the Related functions and the variables
+//into an object
+
+//4 pillars of a OOPS
+
+//1 > Encapsulation
+
+//
+
+//2 > Abstraction
+//
+
+// 3 > Inheritance
+//
+// 4 > Polymorphism
+
+//**********************  Encapsulation    ************ */
+//In OOPS we group the variables and the functions which are operate on them together.
+//We kind of bundle them together.
+//This is known as Encapsulation.
+
+//**********************  Inheritance    ************ */
+//Inheritance is a process in which we Aqquire all the
+//properties and the behaviour of the one class into the Other Class
+// The Class from which we aqquire the properties we called it Parent Class
+// The Class wehere we put all the Properties and the behaviour of the Parent Class
+// we call it as a Child  class
+//Inheritance It is Mechanism that Allows as to elimanate the Reduantant
+//For Example
+
+// class A  => variables and Methods   ===> Parent , Super , Base
+
+//              |
+//            |
+//Class B  => Child , Sub , Derived class
+
+//We are extending tthe class  A to the Class B
+
+/**************** Types of Inheritance ************** */
+
+//Single Inheritance
+//Example: Extending Class B from Class A
+/*************    ****************/
+//multiple Inheritance
+//Example: Extending Class C from Class B and Class B from Class A
+/*************    ****************/
+//Hierarchical inheritance
+//Example: Extending Class B and Class c from Class A
+
+//This are only the three types of Inherotance are supported in Javascript
