@@ -161,3 +161,86 @@
 //Example: Extending Class B and Class c from Class A
 
 //This are only the three types of Inherotance are supported in Javascript
+
+//***************************** Method Overriding ****************** */
+//In the Method Overriding concept. We can override i.e Modify the
+//The MEthod from the parent Class.
+//Examples
+
+// class A {
+//   a = 100;
+
+//   display = function () {
+//     console.log(this.a);
+//   };
+// }
+
+// class B extends A {
+//   b = 200;
+
+//   show = function () {
+//     console.log(this.b);
+//   };
+// }
+
+// class C extends B {
+//   c = 300;
+//   showmore = function () {
+//     console.log(this.c);
+//   };
+// }
+//Types inheritance
+// Single level inheritance
+// Muttilevel inheritance
+//Hirachy inheritance
+
+// const bobj = new C();
+
+// bobj.display();
+// bobj.show();
+// bobj.showmore();
+
+/*********************** Method Overriding **************/
+
+//Method Overriding present in a inheritance
+//In the Method ovverrding we can  Modify the implementaion
+//of a Parent Class
+//For example:
+//I have class A it have some method and I created a Child class B
+// form the class  A. Then If suppose I have to Modufy the Mehtod of class A
+// Then I can do It. This know as a Method Overriding
+//Example******** //
+
+//Example of Method Overriding
+
+// class Bank {
+//   roi = function () {
+//     return 5;
+//   };
+// }
+
+// class Axis extends Bank {
+//   roi = function () {
+//     return 20.5;
+//   };
+// }
+
+// class sbi extends Axis {
+//   roi = function () {
+//     return 55.5;
+//   };
+// }
+
+// const Ax = new Axis();
+
+// console.log(Ax.roi());
+
+//**************************** Super Keyword  *********************** */
+
+//Super Keyword used to invoke the Costructor if the Parent Class
+//So if we want to invoke or us the constructor of the paret class into the Child class
+//So we can do that with the help of the Super Keyword
+
+//super keyword always points towards the costructor of the paraent class
+
+//******************************************  Prototype in Javscript  *********************/
