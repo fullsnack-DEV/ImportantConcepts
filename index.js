@@ -245,27 +245,82 @@
 
 //******************************************  Prototype in Javscript  *********************/
 
-//Example
-function userconstructor(name, score) {
-  const newUser = Object.create(funcStore);
+//Example of a function constructor
 
-  newUser.name = name;
-  newUser.score = score;
+//*****************          *************/
+// function userconstructor(name, score) {
+//   const newUser = Object.create(funcStore);
 
-  console.log(newUser);
+//   newUser.name = name;
+//   newUser.score = score;
 
-  return newUser;
-}
+//   console.log(newUser);
 
-const funcStore = {
-  increment: function () {
-    this.score++;
-  },
-  login: function () {
-    console.log("You are Looged in");
-  }
-};
+//   return newUser;
+// }
 
-const user1 = userconstructor("Prateek", 56);
+// const funcStore = {
+//   increment: function () {
+//     this.score++;
+//   },
+//   login: function () {
+//     console.log("You are Looged in");
+//   }
+// };
 
-console.log(user1);
+// //creating a objects
+// const user1 = userconstructor("Prateek", 56);
+
+// console.log(user1);
+
+/////////////***********  Genratig objects using function  */****** */
+
+// function Usercreator(name, score) {
+//   const newUser = {};
+
+//   newUser.name = name;
+//   newUser.score = score;
+
+//   newUser.incre = function () {
+//     newUser.score++;
+//   };
+
+//   newUser.play = function () {
+//     console.log("Play Start");
+//   };
+
+//   return newUser;
+// }
+
+// const user1 = new Usercreator("prateek", 45);
+
+// console.log(user1);
+
+//The problem with the above approch is we are crearting a
+// multiple copies of a function for each instance
+//MEmory consumtion is more
+
+/****************Another way of creating a Object using Fucntion */
+
+// function Usercreator(name, score) {
+//   const UserStore = Object.create(FuncStore);
+
+//   UserStore.name = name;
+//   UserStore.score = score;
+
+//   return UserStore;
+// }
+
+// const FuncStore = {
+//   increment: function () {
+//     this.score++;
+//   }
+// };
+
+// const user1 = Usercreator("tom", 45);
+// const user2 = Usercreator("jerry", 55);
+// user2.increment();
+
+// console.log(user2);
+
+/************New Kyword to automate the Stuff**** */
