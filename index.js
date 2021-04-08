@@ -244,3 +244,28 @@
 //super keyword always points towards the costructor of the paraent class
 
 //******************************************  Prototype in Javscript  *********************/
+
+//Example
+function userconstructor(name, score) {
+  const newUser = Object.create(funcStore);
+
+  newUser.name = name;
+  newUser.score = score;
+
+  console.log(newUser);
+
+  return newUser;
+}
+
+const funcStore = {
+  increment: function () {
+    this.score++;
+  },
+  login: function () {
+    console.log("You are Looged in");
+  }
+};
+
+const user1 = userconstructor("Prateek", 56);
+
+console.log(user1);
