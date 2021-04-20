@@ -364,3 +364,18 @@
 // });
 
 //**********async await  ***********/
+
+//this is using fetch
+// fetch("https://dog.ceo/api/breeds/list/all")
+//   .then((response) => response.json())
+//   .then((data) => console.log(data));
+
+//using async await
+
+// const data = async () => {
+//   const response = await fetch("https://dog.ceo/api/breeds/list/all");
+//   const data = await response.json();
+//   console.log(data);
+// };
+
+// data();
