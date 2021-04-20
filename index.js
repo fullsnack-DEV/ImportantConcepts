@@ -345,3 +345,22 @@
 // console.log(user2);
 
 /************New Kyword to automate the Stuff**** */
+/************************** Promises ***********/
+
+// const p = new Promise((resolve, reject) => {
+//   const result = 2 * 5;
+
+//   if (result === 4) {
+//     resolve("Correct");
+//   } else {
+//     reject("not correct!");
+//   }
+// });
+
+// p.then((response) => {
+//   console.log(response);
+// }).catch((response) => {
+//   console.log(response);
+// });
+
+//**********async await  ***********/
