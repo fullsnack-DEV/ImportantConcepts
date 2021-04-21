@@ -379,3 +379,32 @@
 // };
 
 // data();
+
+/************  diff between  "==" and '===" ********************/
+
+// == kno9wn as a abstract quality opeartor
+
+//it will do type coersion
+
+// console.log(4 == "4");
+
+// === strict equality operator
+
+// console.log(4 === "4")'
+
+/************************ Inheritance exmaple *******************/
+
+// class team {
+//   name = "Prateek";
+//   print = function () {
+//     console.log(this.name);
+//   };
+// }
+
+// class teamone extends team {
+//   nametwo = "swapnil";
+
+//   show = function () {
+//     console.log(this.nametwo);
+//   };
+// }
